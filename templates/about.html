@@ -1,0 +1,27 @@
+{% extends 'index.html' %}   
+{% block head %}
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="{{url_for('static', filename='photo/4.jpg')}}" class="d-block w-100" alt="...">
+        <div id="about" class="carousel-caption">
+            <div class="p-3 mb-2 bg-primary text-white">
+                Valhalla Bank was established in early 2022. 
+                By bringing together specialists in financial matters and 
+                analysis, we have also created an institution which, at all costs, 
+                focuses attention on the needs of clients and on the quality of the 
+                products they receive.
+            </div>
+        </div>
+        <div id="about2" class="carousel-caption">
+          <div class="p-3 mb-2 bg-primary text-white">
+            According to the report for the previous quarter, the company 
+            recorded a profit of $ 500 million, which puts it in third place on the 
+            list of the fastest growing banks.
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock%}
