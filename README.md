@@ -1,4 +1,4 @@
-# Banking-site
+# Banking-Web App
 Web application created with:
 HTML, CSS, Bootstrap, Python, Flask, Postgresql
 
