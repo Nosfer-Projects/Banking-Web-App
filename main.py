@@ -31,8 +31,6 @@ def log_in():
             customer_data= data.data(customer_id)
             print(customer_data)
             user_password = customer_data[2]
-            print(user_password)
-            print(password)
 
             if user_password == password:
                 BALANCE = customer_data[5]    
