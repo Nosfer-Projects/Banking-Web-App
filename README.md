@@ -2,6 +2,8 @@
 Web application created with:
 HTML, CSS, Bootstrap, Python, Flask, Postgresql
 
+Youtube: Project overview : https://www.youtube.com/watch?v=Zy4eKEqgwGs
+
 When we run the page, we see this:
 
 ![1](https://user-images.githubusercontent.com/114942472/202913824-f61474d7-8412-4815-a974-ba47e5e7fadd.jpg)
