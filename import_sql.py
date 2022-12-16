@@ -2,6 +2,9 @@ import psycopg2 as pg2
 
 PASSWORD = 'password'
 class Sql_import():
+    """
+    This class connects to the server in PgAdmin, searches for the login data entered by the user and returns all client data.
+    """
     def data(self, customer_id):
         customer_data = []
         conn = pg2.connect(database='Bank', user='username',password=PASSWORD, host="localhost", port="5432")
