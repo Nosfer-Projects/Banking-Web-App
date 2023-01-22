@@ -1,6 +1,9 @@
 import psycopg2 as pg2
+import sys
+path = r'path to main folder "Banking-web-app"'
+sys.path.append(path)
 
-PASSWORD = 'pass to database'
+PASSWORD = 'pass'
 class Sql_import():
 
     def data(self, customer_id):
