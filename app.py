@@ -8,7 +8,7 @@ BALANCE = 0
 
 
 app = Flask(__name__)
-app.secret_key = "pass to app"
+app.secret_key = "pass"
 
 @app.route("/")
 def index():

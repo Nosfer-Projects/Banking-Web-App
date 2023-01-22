@@ -1,6 +1,6 @@
 import psycopg2 as pg2
 
-PASSWORD = 'pass to database'
+PASSWORD = 'pass'
 
 class Sql_update():
     def update(self, customer_id, balance):
