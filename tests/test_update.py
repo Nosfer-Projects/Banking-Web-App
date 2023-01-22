@@ -1,6 +1,9 @@
 from unittest import TestCase
-from update_sql import Sql_update
-from import_sql import Sql_import
+import sys
+path = r'path to main folder "Banking-web-app"'
+sys.path.append(path)
+from modules.update_sql import Sql_update
+from modules.import_sql import Sql_import
 
 class TestUpdate(TestCase):
         def setUp(self):
