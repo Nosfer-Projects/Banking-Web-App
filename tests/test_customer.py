@@ -1,5 +1,10 @@
 from unittest import TestCase
-from customer import Customer
+import sys
+path = r'path to main folder "Banking-web-app"'
+sys.path.append(path)
+
+from modules.customer import Customer
+
 
 
 class TestCustomer(TestCase):
