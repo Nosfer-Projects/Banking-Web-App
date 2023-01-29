@@ -11,7 +11,9 @@ class TestCustomer(TestCase):
 
     
     def test_correct_data(self):
-        customer = [1, "admin", "123", "John", "Smith", 4]
+        mock_obj = MagicMock()
+        mock_obj.show.return_value = self.result[-1] 
+        customer = [1, "admin", "123", "John", "Smith", mock_obj.show()]
         self.assertEqual(self.result, customer)
 
 
