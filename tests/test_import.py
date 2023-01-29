@@ -1,7 +1,4 @@
 from unittest import TestCase
-import sys
-path = r'path to main folder "Banking-web-app"'
-sys.path.append(path)
 from modules.import_sql import Sql_import
 
 class TestCustomer(TestCase):
